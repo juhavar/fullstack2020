@@ -1,5 +1,16 @@
 .App {
+  align-items: center;
   text-align: center;
+  
+  
+  background-color:royalblue;
+  border-style: dotted;
+  width: 200px;
+  border-radius: 25px 50px;
+  padding: 20px;
+  input {
+    text-align: right;
+  }
 }
 
 .App-logo {
@@ -14,13 +25,13 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #82c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(20px + 2vmin);
   color: white;
 }
 
