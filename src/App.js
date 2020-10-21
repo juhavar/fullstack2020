@@ -5,7 +5,6 @@ import './App.css';
 function App() {
   const [lauseke, setLauseke] = useState("");
 
-
   const nappiaPainettu = (value)=> {
     if(value==="C"){                  // tyhjäys
       setLauseke("");
