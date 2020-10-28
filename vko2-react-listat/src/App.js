@@ -8,14 +8,13 @@ function App() {
 
   function lisaaNimi()  {
     let temp1 = [...lista1];
-    temp1.concat("Seija");
+    temp1.push("Make");
     SetLista1(temp1);
   }
   const listaaPainettu = (joukkue, index) =>{
     //let v = `${joukkue}[${index}]`
-    let v = {index};
+    let v = index;
     setValinta(v);
-    console.log(v);
   }
 
   const vaihto = (suunta) => {
@@ -24,21 +23,23 @@ function App() {
     let temp2 = [...lista2];
     console.log(valinta);
     if(suunta===1){
+      let nimi = temp1[valinta];
       temp1.splice(valinta,1);
-      temp2.concat(valinta.toString(),1);
+      temp2.push(nimi);
       SetLista1(temp1);
       SetLista2(temp2);
       
     }
     else if(suunta===0){
+      let nimi = temp2[valinta];
       temp2.splice(valinta,1);
-      temp1.concat(valinta.toString(),1);
+      temp1.push(nimi);
       SetLista1(temp1);
       SetLista2(temp2);
     }
     console.log(lista1);
     console.log(lista2);
-    setValinta("");
+
 
   }
 
