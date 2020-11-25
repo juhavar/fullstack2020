@@ -1,0 +1,29 @@
+{
+  "ihmiset": [
+    {
+      "uid": "6ea6636-78b7-afe-02cd-5f1bc51582e",
+      "etunimi": "Pekka",
+      "sukunimi": "Jakamo",
+      "ikä": 29,
+      "jälkikasvu": [
+        {
+          "uid": "5422b5a-704f-5af-d5fe-01f107d220d",
+          "lapsenNimi": "Lissa",
+          "nimet": {
+            "ensimmäinen_nimi": "Lissa",
+            "toinen_nimi": "Riitta"
+          }
+        },
+        {
+          "lapsenNimi": "Kaapo"
+        }
+      ]
+    },
+    {
+      "uid": "4034ef8-b7d0-4e4-20c8-bc42554026",
+      "etunimi": "Jarmo",
+      "sukunimi": "Jakamo",
+      "ikä": 49
+    }
+  ]
+}

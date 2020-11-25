@@ -1,0 +1,29 @@
+{
+    "ihmiset": [
+        {
+            "id": 1,
+            "etunimi": "Pekka",
+            "sukunimi": "Jakamo",
+            "ikä": 29,
+            "jalkikasvu": [
+                {
+                    "id": 1,
+                    "lapsenNimi": "Lissa",
+                    "nimet": {
+                        "ensimmäinen_nimi": "Lissa",
+                        "toinen_nimi": "Riitta"
+                    }
+                },
+                {
+                    "lapsenNimi": "Kaapo"
+                }
+            ]
+        },
+        {
+            "uid": 2,
+            "etunimi": "Jarmo",
+            "sukunimi": "Jakamo",
+            "ikä": 49
+        }
+    ]
+}

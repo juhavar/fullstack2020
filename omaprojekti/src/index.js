@@ -1,21 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-//import Listswithobjects from './Listswithobjects';
-//import JSt2 from './JSt2';
-//import App from './App';
-import App11 from './App11';
-//import Esineet from './Esineet'
-//import LocalStorageUusi from './LocalStorageUusi';
-//import Quiz from './Quiz';
-import JSONServerApp from './JSONserverApp';
-
-
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <JSONServerApp />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
